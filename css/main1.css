@@ -1,0 +1,128 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	
+}
+
+body {
+	text-align: center;
+}
+
+h1 {
+	font-size: 36pt;
+	letter-spacing: 5px;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 10px;
+	
+}
+
+h2.subtitle {
+	font-family:"NSimSun","SimHei";
+	padding-top: 0px;
+	color:#FFFF00;
+}
+
+#container {
+	margin: 100px auto;
+	width: 700px;
+	color: #ffffff;
+}
+
+#countdown_dashboard {
+	height: 110px;
+	padding:auto auto;
+}
+
+.dash {
+	width: 110px;
+	height: 114px;
+	background: transparent url('../images/dash.png') 0 0 no-repeat;
+	float: left;
+	margin-left: 30px;
+	position: relative;
+}
+
+.dash1 {
+	width: 165px;
+	height: 114px;
+	background: transparent url('../images/days.png') 0 0 no-repeat;
+	float: left;
+	margin-left: 50px;
+	position: relative;
+}
+.dash .digit {
+	font-size: 55pt;
+	font-weight: bold;
+	float: left;
+	width: 55px;
+	text-align: center;
+	font-family: Times;
+	color:#e1e1e1;
+	position: relative;
+}
+.dash1 .digit {
+	font-size: 55pt;
+	font-weight: bold;
+	float: left;
+	width: 55px;
+	text-align: center;
+	font-family: Times;
+	color:#e1e1e1;
+	position: relative;
+}
+.dash_title {
+	position: absolute;
+	display: block;
+	bottom: 0px;
+	right: 6px;
+	font-size: 9pt;
+	color: #FFFF00;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.dev_comment {
+	font-size: 14pt;
+	color: #777;
+	text-align: center;
+	font-style: italic;
+	margin: 40px 10px;
+}
+
+#subscribe_form {
+	position: relative;
+} 
+
+#email_field {
+	font-size: 16pt;
+	padding: 6px 10px;
+	width: 300px;
+}
+
+#subscribe_button {
+	font-size: 14pt;
+	color: #333;
+	padding: 4px 8px;
+}
+
+.copyright {
+    font-size: 9pt;
+	color: #333;
+	position:fixed;
+    left:40%;
+    bottom:6px;
+    
+}
+.slogen{
+	font-family:"Microsoft YaHei","SimHei";
+	font-size: 50px;
+	font-weight:bold;
+	margin-top:-5px;
+	color: #ffffff;
+	letter-spacing:3px;
+	filter:alpha(opacity=70);  
+    -moz-opacity:0.7;
+    -khtml-opacity: 0.7;  
+    opacity: 0.7;
+	
+}

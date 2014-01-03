@@ -1,0 +1,10 @@
+/* basic */
+body { background:url(img/bg.jpg) no-repeat center top #312318 fixed; margin:0 auto;font:12px/24px tahoma, Helvetica, Arial, "Microsoft YaHei"; text-align:center;font-size:14px;  }
+h1,h2,h3,h4,h5,h6,ul,p,dl,dt,dd,form,i{ margin:0px; padding:0px; font-weight:normal; }
+ul{ list-style:none; overflow:hidden; }
+a{ color:#c1bdb9; text-decoration:none; }
+a:hover{ color:#fff; }
+img{ border:none; }
+.clear{ clear:both; height:0; line-height:0; zoom:1; font-size:1px; visibility:hidden; overflow:hidden; }
+
+
